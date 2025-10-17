@@ -1,0 +1,535 @@
+#print(" 1. Mix 500g of flour , 10g yeast and 300 ml water in a bowl")
+#print("2. kneadd the dough for 10 minutes")
+#print("3. Add 3g of salt.")
+#print("4.leave for rise for 2 hours")
+#print("5. bake at 200 degrees C for 30 minutes")
+
+#print("hello" + "chandradip")
+
+#input("what is your name?")
+#print("hello" + input("what is your name?")
+
+#print("hello. " + input("what is your name") + "!")
+
+# name = "jack"
+# print(name)
+
+# name= "angela"
+# print(name)
+# print(len(input("what is your name")))
+
+
+# username=input("enter your name")
+# length=len(username)
+# print(length)
+
+#create a brand name generator
+
+# print("welcome to band name genertor")
+# city=input("whats your city name")
+# pet=input("whats your pet name")
+# print("your band name can be:" , city+" " + pet )
+
+
+# print(type("chandradip"))
+# print(type(1234567))
+# print(type(5.50867777))
+# print(type(True))
+
+# print(int("123456") +int("567890"))
+#bmi= (weight)/(height**2)
+
+# score= 0
+# height = 1.8
+# is_winning = True
+# print(f"your score is = {score} , your height is {height} . you are winning{is_winning}")
+
+#bill calculator pperson
+
+# print("welcome to tip calculator")
+# bill=float(input("what was the bill??"))
+# tip=int(input("what percentage tip you would like to give 10 12 15 "))
+# people = int(input("how many people to split the bill"))
+# bill_with_tip = (tip/100*bill+ bill)/people
+# print(bill_with_tip)
+ #or
+# bill=float(input("what was the total bill? $"))
+# tip=int(input("what percentage of tip you want to give? 10 12 15"))
+# people=int(input("no of person in trip: "))
+# tip_bill=(tip/bill)*100
+# total_bill=(bill+tip_bill)
+# bill_person=total_bill/people
+# print( f"bill per person is {bill_person}")
+
+
+#conditional statement
+# if condition:
+#     do this
+# else:
+#     do this
+
+# print("welcome to roller coaster")
+# height=float(input("enter your height"))
+# if height>120:
+#    print("yeah you can ride")
+# else:
+#    print("sorry you cannot ride")
+
+#modulo operator gives reminder
+
+
+
+#program for number is even or odd
+
+
+# x=int(input("enter numbr"))
+# if x%2==0 :
+#     print("number is even")
+# else:
+#     print("your number is odd")
+
+# height=int(input("enter your height"))
+# if height >= 120:
+#     print("you can ride ")
+# age= int(input("enter your age"))
+# if  age>=12:
+#     print("your fare is $5")
+# elif age<=12 :
+#     print("your fare is $7")
+
+#bmi calculator
+
+
+# weight =float(input("enter your weight"))
+# height = float(input("enter your height"))
+# bmi = weight / (height ** 2)
+# if bmi<18.5:
+#     print("low weight")
+# elif 18.5<bmi<25 :
+#     print("normal weight")
+# else:
+#     print("over weigt")
+
+#multiple if statements
+# print("welcome to  the rollercoaster")
+# height=int(input("what is your height"))
+# if height >= 120:
+#     print("you can ride the roller coaster")
+#     age = int(input("what is you age "))
+#     if age <= 12:
+#         print("please pay $5. ")
+#     elif age <= 18 :
+#         print("please pay $7.")
+#     else:
+#         print("please pay $12.")
+#     want_photo = input("do you want a photo?  type y for yes and n for no")
+#     if wants_photo =="y":
+#         bill +=3
+#         print(f"your bill is {bill}")
+#     else:
+#         bill1==    
+
+
+# print( "welcome to cd pizza shop")
+# size=input(" what the size of the pizza you want?  Small , Medium , Large")
+# peproni=input("enter y for yes and n for no")
+# extra_cheese=input("enter y for yes and n for no")
+# bill=0
+# if size == "small":
+#     bill+=15
+# elif size== "medium":
+#     bill+=20
+# elif size =="large" :
+#     bill+=25
+# else:
+#     print("you typed wrong")     
+# if peproni == "y":
+#     if size == "small":
+#         bill+=2
+#     else:
+#         bill +=3
+# if extra_cheese == "y":
+#     bill+=1
+# print(f"your bill is $ {bill}")
+
+
+
+
+# print('''*******************************************************************************
+#           |                   |                  |                     |
+#  _________|________________.=""_;=.______________|_____________________|_______
+# |                   |  ,-"_,=""     `"=.|                  |
+# |___________________|__"=._o`"-._        `"=.______________|___________________
+#           |                `"=._o`"=._      _`"=._                     |
+#  _________|_____________________:=._o "=._."_.-="'"=.__________________|_______
+# |                   |    __.--" , ; `"=._o." ,-"""-._ ".   |
+# |___________________|_._"  ,. .` ` `` ,  `"-._"-._   ". '__|___________________
+#           |           |o`"=._` , "` `; .". ,  "-._"-._; ;              |
+#  _________|___________| ;`-.o`"=._; ." ` '`."\` . "-._ /_______________|_______
+# |                   | |o;    `"-.o`"=._``  '` " ,__.--o;   |
+# |___________________|_| ;     (#) `-.o `"=.`_.--"_o.-; ;___|___________________
+# ____/______/______/___|o;._    "      `".o|o_.--"    ;o;____/______/______/____
+# /______/______/______/_"=._o--._        ; | ;        ; ;/______/______/______/_
+# ____/______/______/______/__"=._o--._   ;o|o;     _._;o;____/______/______/____
+# /______/______/______/______/____"=._o._; | ;_.--"o.--"_/______/______/______/_
+# ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
+# /______/______/______/______/______/______/______/______/______/______/[TomekK]
+# *******************************************************************************''')
+# # print("welcome to  treasure  island ")
+
+# print("your mission is to find  the treasure ")
+
+# choice1=input("you want to go right or left type  L for left , R for right")
+# if choice1== "R":
+#     print("you fall in to a hole Game Over!")
+# elif choice1 == "L":
+#     choice2=input("you want to swim or wait")
+#     if choice2=="swim":
+#         print("you attacked by a crocodile you died Game Over")
+#     elif choice2=="wait":
+#         choice3=input("which colour you woul like to choose Red , Blue , yellow")
+#         if choice3=="Red":
+#             print("burned by fire you died")
+#         elif choice3=="Blue":
+#             print("eaten by beast")
+#         elif choice3== "yellow":
+#             print("yeah you win!")
+#         else:
+#             print("wrong move game over")
+#     else:
+#         print("wrong move you died game over")
+# else:
+#     print("Gam over!")
+
+
+
+# import random
+
+# random_integer=random.randint(1 ,10)
+# print(random_integer)
+# import random
+
+# random_number_0_to_1 =  random.random() *100 
+# print(random_number_0_to_1)
+# random_float=random.uniform(1,10)
+# print(random_float)
+
+# random_integer=random.randint(0,1)
+# if random_integer == 0:
+#     print("head")
+# else:
+#     print("tails")
+
+
+#lists
+# states_india=["assam", "west bengal","delhi"]
+# print(states_india[-3])
+# states_india[1]="bengal"
+# print(states_india)
+# states_india.append("jeetland")
+# states_india.extend(["marryland" , "arizona" , "califonia"])
+# print(states_india)
+#method1
+# import random
+#  friends=["aadi" , "diksha" , "nandini" , "chandradip"]
+# random1=random.randint(1,5)
+#  if random1 == 2:
+#      print(friends[0])
+#  elif random1==4:
+#      print(friends[3])
+#  elif random1 == 1:
+#      print(friends[2])
+#  else:
+#      print(friends[1])
+
+
+# import random
+# friends=["nandini" , "chandradip", "aadi" , "diksha"]
+# print(random.choice(friends))
+# print(len(friends))
+# dirty_dozens["mango" ,"apple" , "strawberry" ,"papaya", "spinach" , "potato"]
+# fruits= [ "mango " , "apple" , "strawberry"]
+# vegitable=["spinach" , "papaya" , "potato"]
+# dirty_dozen= [fruits , vegitable]
+# print(dirty_dozen)
+
+# import random
+
+# scissor="
+#    _       ,/'
+#   (_).  ,/'
+#    _  ::
+#   (_)'  `\.
+#            `\."
+
+# rock=  
+# '               | |   
+#  _ __ ___   ___| | __
+# | '__/ _ \ / __| |/ /
+# | | | (_) | (__|   < 
+# |_|  \___/ \___|_|\_\
+#                      '
+
+# paper= "_ __   __ _ _ __   ___ _ __ 
+# | '_ \ / _` | '_ \ / _ \ '__|
+# | |_) | (_| | |_) |  __/ |   
+# | .__/ \__,_| .__/ \___|_|   
+# | |         | |              
+# |_|         |_|  "
+
+# game_images=[ rock , paper , sissor]
+
+
+
+
+
+
+# "
+# user_choice=int(input("what do you want to choose 0 for rock , 1 for paper , 2 for scissor"))
+# computer_choice=random.randint(0 , 2)
+# print(f"computer choose {computer_choice}")
+# # if  user_choice >= 3 :
+# #     print("you typed an invalid number you lost")
+     
+# # elif user_choice == 0 and computer_choice ==2 :
+# #      print("you win")
+# elif computer_choice ==0 and user_choice==2:
+#      print('you lose')
+# elif user_choice < computer_choice :
+#      print("you lost")
+# elif computer_choice == user_choice :
+#      print("draw")
+# elif  user_choice > computer_choice :
+#      print("you won!")
+
+
+
+#for loops 
+# fruits=["apple" , "peach" , "pear"]
+# for fruit in fruits:
+#     print(fruit)
+#     print(fruit + " pie")
+
+
+
+
+# student_scores=[150,2,3,4,5,6,7,8,9,98,7,6,5,3,3]
+# total_exam_score = sum(student_scores)
+# print(total_exam_score)
+# print(max(student_scores))
+# for number in range(1,10 , 7):
+#     print(number)
+
+
+# total= 0
+# for number in range(1, 101):
+#     total+= number
+# print(total)
+
+
+# for number in range(1,101):
+#     if number%3==0 and number%5==0:
+#         print("FizzBuzz")
+#     elif number%3==0:
+#         print("Fizz")
+#     elif number%5==0:
+#         print("Buzz")
+#     else:
+#         print(number)
+
+
+
+#password generator
+
+# import random
+
+# letters=["a" , "b" , "c" , "d" ,"e" ,"f" ,"g " , "h" , "i" ,"j" ,"k" ,"l" ,"m" ,"n" ,"o" ,"p" ,"q" ,"r" ,"s" ,"t"]
+# numbers=["0","1","2","3","4","5","6","7","8","9"]
+# symbols=["!" , "@", "#" , "#" ,"$"]
+# print("Welcome to my password generator!")
+# nr_letter= int(input("how many letter you want in password"))
+# nr_number=int(input("how many number you wan in your password"))
+# nr_symbol=int(input("how many letters"))
+# password=""
+# for char in range(1, nr_letter+1):
+#      random_character=random.choice(letters)
+#      password+=random_character
+# for char in range(1,nr_symbol+1):
+#      password+= random.choice(symbols)
+# for char in range(1, nr_number+1):
+#      password+=random.choice(numbers)
+# print(password)
+
+
+# def greet() :
+#     print("hello")
+#     print("how do you do?")  
+#     print("how is the weather")
+# greet()
+
+# def my_func(something):
+#     print(f"hello{something}")
+# my_func(696969)
+# def life_in_week(age):
+#     years_remaining=90 - age
+#     week_remaining=years_remaining*52
+#     print(f"you have{week_remaining} weeks left")
+# life_in_week(int(input("enter your age")))
+# def greet_with(name , location):
+#     print(f"hello{name}")
+#     print(f"what is the name of your {location}")
+# greet_with(name: "nowhere" , location:"location")
+
+
+# i=5
+# while i<=:
+#     print(i)
+#     i-=1
+# i=0
+# while i<100:
+#     i+=1
+#     print(i)
+# i=100
+# while i>0:
+#     i-=1
+#     print(i)
+# x=int(input("enter your number"))
+# i=0
+# while i <=10:
+#     i+=1
+#     print(x*i)
+# nums=[1,4,9,16,25,36,49,64,81,100]
+# idx=0
+# while idx < len(nums):
+#     print(nums[idx])
+#     idx+=1
+
+
+# nums=(1,4,9,16,25,36,49,64,81,100)
+# x=36
+# i=0
+# while i< len(nums):
+#     if (nums[i]==x):
+#         print("found at idx " , i)
+#         i+=1
+   
+# i=0
+# while i <5:
+#     print(i)
+#     i+=1
+#     if(i==3):
+#         break
+
+# print('end loop')
+  
+
+# nums=[1,4,9,16,25,36,49,64,81,100]
+# for val in nums:
+#     print(val)
+
+# for i in range(101):
+#     print(i)
+
+# for i in range(100, 0 , -1):
+#     print(i)
+# x=int(input("enter your number"))
+# for i in range(1,10):
+#     print(i*x)
+# for i in range(5):
+#     pass
+# print("chandradip is a good boy")
+# n=6
+# sum=0
+# for i in range(0,n):
+#     sum+=i
+# print(f"total sum ={sum}")
+
+#n=6
+# sum=0
+# for i in range(0,n):
+#     sum+=i
+# print(f"total sum ={sum}")
+
+# def cal_sum(a,b):
+#     sum=a+b 
+# #     print(sum)
+# def calc_avg(a,b,c):
+#     sum=a+b+c
+#     avg=(sum)/3
+#     print(avg)
+   
+#     return avg
+
+# calc_avg(1,2,3)
+# list=["jeet" , "devi" , "chandan" , "champu"]
+# print(len(list))
+
+# list=["jeet" , "devi" , "chandan" , "champu"]
+# def print_list(list):
+#     for item in list:
+#         print(item , end=" ")
+# print_list(list)
+# print()
+# n=5
+# fact = 1
+# for i  in range(1,n+1):
+#     fact*= i
+# print(fact , end=" ")
+# def cal_fact(n):
+#     fact=1
+#     for i in range (1,n+1):
+#         fact*=i
+#     print(fact)
+# cal_fact(8)
+
+# def converter(usd ):
+#     inr_value=usd*85
+#     print(inr_value)
+# converter(90)
+# f=open("demo.txt" , "r")
+# data=f.read()
+# print(data)
+# print(type(data))
+
+
+
+# # function with out puts
+# lst=[]
+# while True:
+#     user_input=input("enter anything:  ")
+#     if user_input=="x":
+#         break
+#     cd=str(user_input)
+#     lst.append(cd)
+# print(lst)
+# for elements in lst:
+#     rev=elements[::-1]
+#     if rev==elements:
+#         print(elements,"palindrome")
+#     else:
+#         print(elements,"not palindrome")
+
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Generate x values from -10 to 10
+x = np.linspace(-10, 10, 200)
+
+# Define the parabola equation: y = ax^2 + bx + c
+a, b, c = 1, 0, 0
+y = a * x**2 + b * x + c
+
+# Plot the parabola
+plt.plot(x, y, label="y = x²", color='blue')
+
+# Add labels and title
+plt.title("Parabola using NumPy and Matplotlib")
+plt.xlabel("x-axis")
+plt.ylabel("y-axis")
+
+# Add grid and legend
+plt.grid(True)
+plt.legend()
+
+# Show the plot
+plt.show()
