@@ -55,5 +55,7 @@ ax.set_xlabel('X')
 ax.set_ylabel('Y')
 ax.set_zlabel('Z')
 ax.set_title('Surface: z = x² + y²')
+# jeet is a good boy
+print("jeet is a good boy")
 
 plt.show()
